@@ -231,7 +231,7 @@ function readusr() {
                 <td><a href="delete?id=30" onClick="return confirm('你确定删除？？')">删除</a></td>               
             </table>
 			<div class="xxk2">
-               73 条记录 1/4 页  <a href='http://jamestest-jingmintest.rhcloud.com/admin/index.php/Qiang/qiang/p/2.html'>下一页</a>     <span class='current'>1</span><a href='http://jamestest-jingmintest.rhcloud.com/admin/index.php/Qiang/qiang/p/2.html'>2</a><a href='http://jamestest-jingmintest.rhcloud.com/admin/index.php/Qiang/qiang/p/3.html'>3</a><a href='http://jamestest-jingmintest.rhcloud.com/admin/index.php/Qiang/qiang/p/4.html'>4</a>         
+               73 条记录 1/4 页  <a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/2.html'>下一页</a>     <span class='current'>1</span><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/2.html'>2</a><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/3.html'>3</a><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/4.html'>4</a>         
             </div>
 		 
          </div><!--xxk1/-->
