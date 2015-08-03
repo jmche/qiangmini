@@ -1,0 +1,25 @@
+body {
+	padding-bottom:30%; background-color:#FCBEB1;
+}
+.form-signin {
+	margin: 0px auto; text-align: center; min-width: 320px; max-width: 640px;
+}
+.form-signin .form-signin-heading {
+	color: rgb(255, 255, 255); margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	color: rgb(255, 255, 255); margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	padding: 10px; height: auto; font-size: 16px; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+img {
+	width: 90%; height: auto;
+}
+#touxiang {
+	width: 120px; height: 120px;
+}
+

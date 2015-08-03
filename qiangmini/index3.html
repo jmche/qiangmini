@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>0元抢活动</title>
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no">
+    <!--meta name="viewport" content="width=device-width,initial-scale=1.0" /-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery1.10.js" language="JavaScript"></script>
+</head>
+<body>
+   <script>
+jQuery(document).ready(function($) {
+	/*$('.theme-login').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-popover').slideDown(200);
+	})*/
+	$('.theme-login').click(function(){
+		$('.theme-popover-mask').fadeIn(1);
+		$('.theme-popover').slideDown(2);
+	})
+	$('.theme-poptit .close').click(function(){
+		$('.theme-popover-mask').fadeOut(1);
+		$('.theme-popover').slideUp(2);
+	})
+
+})
+</script>
+
+<div id="theme-popoverall">
+  <div class="theme-popover">
+    <div class="theme-poptit"> <a href="javascript:;" title="关闭" class="close">×</a>
+      <h3>请认真填写你收货信息</h3>
+    </div>
+    <form name="addbook" id="stj01" action="http://callcenter.weiyingjia.cn/qiang.php" method="post">
+      <div id="login_wrap">
+      <p id="for_tel_blur" class="login_input_wrap">
+        <input type="text"  class="block input_for_login wrap" onClick="clearInp(this,'请输入收货人的姓名');"  value="" placeholder="请输入收货人的姓名" id="username" name="username"/>
+        <!--onkeydown="clearInp(this,'请输入收货人的姓名');"-->
+      </p>
+      <p id="for_tel_blur" class="login_input_wrap">
+        <input type="tel"  class="block input_for_login wrap"    onclick="clearInp(this,'请填写您收货手机号');" placeholder="请填写您收货手机号" value="" id="mobile" name="mobile">
+      </p>
+      <p id="for_pass_blur" class="login_input_wrap">
+        <input type="text" id="user_password" id="address" name="address" class="block input_for_login wrap" placeholder="请输入您收货地址" />
+      </p>
+      <!--<div style="clear:both;"></div>-->
+      <input type="submit"  onclick="return formschecks('1');" class="u_btns c_txt bold" value="确认" >
+    </form>
+  </div>
+</div>      
+
+<script language="javascript" type="text/javascript">
+
+//函数
+var Ajax = {xmlhttp:function(){ 
+	try{ 
+			return new ActiveXObject('Msxml2.XMLHTTP'); 
+		}catch(e){ 
+			try{ 
+				return new ActiveXObject('Microsoft.XMLHTTP'); 
+			}catch(e){ 
+				return new XMLHttpRequest(); 
+			} 
+		} 
+	} 
+}; 
+
+Ajax.Request = function(){ 
+	if (arguments.length<2) return; 
+	var _p = {asynchronous:true,method:"GET",parameters:""}; //默认参数
+	for (var key in arguments[1]){ // 自定义参数，覆盖默认参数
+		_p[key] = arguments[1][key]; 
+	} 
+	var _x = Ajax.xmlhttp(); // XML 对象
+	var _url = arguments[0]; // URL
+	if(_p["parameters"].length>0) _p["parameters"] += '&_='; 
+	if(_p["method"].toUpperCase()=="GET")_url += (_url.match(/\?/) ? '&' : '?') + _p["parameters"]; 
+	_x.open(_p["method"],_url,_p["asynchronous"]); 
+	
+	_x.onreadystatechange = function(){ 
+		if (_x.readyState==4){ 
+			if(_x.status==200){ 
+			_p["onComplete"]?_p["onComplete"](_x):""; 
+			}else{ 
+				_p["onError"]?_p["onError"](_x):""; 
+			} 
+		} 
+	} 
+	
+	if(_p["method"].toUpperCase()=="POST")_x.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); 
+	_x.send(_p["method"].toUpperCase()=="POST" ? _p["parameters"] : null); 
+}; 
+
+function getInfoTMNow(){ 
+
+	//markname = document.getElementById("markname").value
+	username = document.getElementById("username").value
+	mobile = document.getElementById("mobile").value 
+	address = document.getElementById("address").value
+	 
+	var myAjax = new Ajax.Request( 
+	//"http://huodong2.renrenws.com/plus/submit.php?username=" + username + "&mobile=" + mobile + "&address=" + address, 
+	 "./plus/submit.php?username=" + username + "&mobile=" + mobile + "&address=" + address, 
+		
+		{ 
+			method:"post", 
+			parameters:"sid=" + Math.random, 
+			onComplete:function(xmlhttp){
+				var resp = xmlhttp.responseText;
+				var func = new Function("return "+resp);
+				var json = func( );
+				 
+				document.getElementById("infos1").innerHTML = "<b class='Bcol'>" + json.Infos + "</b>";
+				if(json.Infos=="已经提交成功！还可继续提交。"){
+					document.signUp.submit();
+				}
+				
+			} 
+		} 
+	); 
+}
+function formschecks(T){
+
+  /*if(T=="1"){		
+  	if (document.getElementById("markname").value == "" || document.getElementById("markname").value =="用于查询,多个商标用逗号隔开")
+	{
+		alert("请填写商标名称");
+		document.getElementById("markname").focus();
+		return (false);
+	}
+  }*/
+  
+  
+if(T=="1"){	
+  if (document.getElementById("username").value == "" || document.getElementById("username").value=="请输入收货人的姓名")
+  {
+    alert("请输入收货人的姓名。");
+    document.getElementById("username").focus();
+    return (false);
+  }
+}
+
+ 	if(document.getElementById("mobile").value.length==0 || document.getElementById("mobile").value=="请填写您收货手机号")
+
+    {
+        alert('请输入手机号码！');
+        document.getElementById("mobile").focus();
+        return false;
+     }    
+
+        if(document.getElementById("mobile").value.length!=11)
+
+        {
+
+            alert('请输入有效的手机号码！');
+            document.getElementById("mobile").focus();
+            return false;
+
+        }
+
+        var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(15[0-9]{1})|(16[0-9]{1})|151|152|153|154|155|156|157|158|159|145|147|(18[0-9]))+\d{8})$/;
+
+        if(!myreg.test(document.getElementById("mobile").value))
+
+        {
+
+            alert('请输入有效的手机号码！');
+            document.getElementById("mobile").focus();
+            return false;
+
+        }
+ 
+ 
+ if(T=="1"){		
+  	getInfoTMNow();
+  }
+   
+  return (true);
+  
+}
+
+ 
+
+</script>
+<script language="javascript" type="text/javascript">
+function clearInp(o){ //关键字点击清除
+	var Msg="请输入关键字";
+	if (o.className.indexOf("doClear")==-1){
+		o.className += " doClear";
+		Msg=o.value;
+		o.value="";
+	}
+ 	o.onblur=function(){
+		if (o.value=="") {
+			o.value=Msg; 
+			o.className=o.className.replace(" doClear","");
+		}
+	}
+}
+
+</script> 
+<div class="page money" id="p_money1">
+
+    <div class="max_width">
+    
+    
+        <div class="contop">
+        
+      
+            <img class="bg" src="img/bg221.png" style="width:640px;" alt=""/>
+            <div class="jt"> <a class="btn btn-primary btn-large theme-login" href="javascript:;"><img src="img/tianxie.png"  style="margin-top:20px; "  /> </a></div>
+           
+           
+            <!--<form method="get" action="/index.php/Home/Active/receiveMarket" id="frm_qian">
+                <div class="iptw">
+                    <span class="des">输入手机号，送您1－100元</span>
+                    <input class="ipt_mobile" type="tel" id="phone" placeholder="请输入手机号"  maxlength="11"
+                        data-empty="请输入手机号" data-phone-err="请输入正确格式的手机号" name="phone" />
+                </div>
+                
+                <input type="hidden" value="2215" name="id_member">
+                <input type="hidden" value="277" name="id_active">
+                <input type="hidden" value="1" name="type">
+            </form>-->
+            
+                   
+        </div>
+        <!--<div class="pbotm">
+            <a class="p p1 btn_rules" href="">活动规则<span>&gt;&gt;</span></a>
+        <p class="p p2">客服电话：010-67500891</p>
+            <p class="p p3">拍超市购物小票，拿现金返利</p>
+        </div>-->
+    </div>
+</div>
+
+ 
+ 
+</body>
+</html>

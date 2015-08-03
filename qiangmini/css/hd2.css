@@ -1,0 +1,1236 @@
+body {
+	background: rgb(255, 255, 255); font-family: "微软雅黑"; font-size: 100%; font-weight: normal;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px;
+}
+ul {
+	margin: 0px;
+}
+ol {
+	margin: 0px;
+}
+p {
+	margin: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+}
+h4 {
+	margin: 0px;
+}
+h5 {
+	margin: 0px;
+}
+h6 {
+	margin: 0px;
+}
+dl {
+	margin: 0px;
+}
+dt {
+	margin: 0px;
+}
+dd {
+	margin: 0px;
+}
+form {
+	margin: 0px;
+}
+textarea {
+	margin: 0px;
+}
+input {
+	margin: 0px;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+ul {
+	padding: 0px;
+}
+ol {
+	padding: 0px;
+}
+input {
+	padding: 0px;
+}
+table {
+	margin: 0px auto; width: 100%; border-collapse: collapse;
+}
+a img {
+	border: 0px currentColor; border-image: none;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; content: " ";
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+img {
+	max-width: 100%;
+}
+object {
+	max-width: 100%;
+}
+audio {
+	max-width: 100%;
+}
+vedio {
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+}
+.btn {
+	display: inline-block; z-index: 100;
+}
+.max_width {
+	margin: 0px auto; width: 640px;
+}
+.modal_bg {
+	display: none;
+}
+.show.modal_bg {
+	display: block;
+}
+.dlg {
+	display: none;
+}
+.show.dlg {
+	display: block;
+}
+.money .contop {
+	height: 764px; position: relative;
+}
+.money .jt {
+	border-radius: 5px; left: 85px; top: 226px; width: 458px; height: 61px; text-align: center; line-height: 61px; position: absolute;
+}
+.money .iptw {
+	top: 552px; width: 100%; color: white; font-size: 31px; position: absolute;
+}
+.money .iptw .des {
+	text-align: center; display: block;
+}
+.money .ipt_mobile {
+	margin: 30px auto 0px; padding: 10px; border-radius: 8px; border: 0px currentColor; border-image: none; width: 363px; height: 50px; color: rgb(51, 51, 51); line-height: 50px; font-size: 30px; display: block;
+}
+.p2.money .contop {
+	height: 672px;
+}
+.money .btnw {
+	background: rgb(250, 42, 42); height: 110px; position: relative;
+}
+.money .btnw .btn {
+	background: rgb(253, 185, 38); border-radius: 8px; left: 50%; top: 24px; width: 240px; height: 85px; text-align: center; color: rgb(250, 41, 44); line-height: 85px; font-size: 29px; display: block; position: absolute;
+}
+.money .btnw .btn:hover {
+	background: rgb(247, 192, 74);
+}
+.money .btnw .btn_download {
+	margin-left: -275px;
+}
+.money .btnw .btn_invite {
+	margin-left: 34px;
+}
+.btn_qqian {
+	left: 38%; height: 78px; bottom: -27px; display: block; position: absolute;
+}
+.sharelq {
+	background: rgb(255, 255, 255); padding: 20px 0px 10px; color: rgb(255, 0, 0);
+}
+.sharelq .p {
+	margin: 0px auto; width: 90%; text-align: center; color: red; display: block;
+}
+.sharelq .p3 {
+	font-size: 24px;
+}
+.pbotm {
+	background: rgb(250, 42, 42); padding: 60px 0px 40px;
+}
+.pbotm .p {
+	margin: 0px auto; width: 90%; text-align: center; color: white; display: block;
+}
+.pbotm .p1 {
+	width: 160px; font-size: 26px;
+}
+.pbotm .p1 span {
+	font-family: "arial";
+}
+.pbotm .p2 {
+	color: rgb(253, 244, 143); font-size: 25px; margin-top: 25px;
+}
+.pbotm .p3 {
+	font-size: 35px; margin-top: 20px;
+}
+.qresult {
+	top: 385px; width: 100%; position: absolute;
+}
+.qresult .w {
+	text-align: center; color: white; display: block;
+}
+.qresult .num {
+	font-size: 54px;
+}
+.qresult .nb {
+	font-size: 24px;
+}
+.qresult .y {
+	text-align: center; color: rgb(252, 245, 138); font-size: 21px; margin-top: 15px; display: block;
+}
+.y2.qresult {
+	font-size: 24px;
+}
+.modal_bg {
+	background: black; left: 50%; top: 0px; width: 640px; height: 100%; margin-left: -320px; position: fixed; z-index: 400; opacity: 0.5;
+}
+.dlg {
+	background: white; border-radius: 8px; left: 50%; top: 92px; width: 600px; margin-left: -300px; position: absolute; z-index: 500; box-shadow: 0px 0px 3px #ccc;
+}
+.dlg .conw {
+	margin: 26px 16px 16px;
+}
+.dlg .conw .ti {
+	text-align: center; color: rgb(94, 94, 94); font-size: 28px; font-weight: bold;
+}
+.dlg .conw .con {
+	color: rgb(120, 120, 120); line-height: 30px; font-size: 22px;
+}
+.btn_close {
+	background: rgb(255, 172, 60); margin: 30px auto 0px; border-radius: 8px; width: 150px; height: 60px; text-align: center; color: white; line-height: 60px; font-size: 22px; display: block;
+}
+.dlg_invite {
+	left: 50%; top: 0px; width: 640px; margin-left: -320px; display: none; position: absolute; z-index: 500;
+}
+.show.dlg_invite {
+	display: block;
+}
+.dlg_invite img {
+	top: 30px; right: 80px; display: block; position: absolute;
+}
+.dlg_invite p {
+	left: 0px; top: 370px; width: 100%; text-align: center; color: white; font-size: 30px; display: block; position: absolute;
+}
+.dlg_invite .btn_know {
+	left: 50%; top: 574px; width: 130px; height: 42px; text-align: center; color: rgb(234, 144, 58); line-height: 42px; font-size: 32px; margin-left: -65px; border-bottom-color: rgb(163, 131, 108); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: absolute;
+}
+.invite_bg {
+	opacity: 0.7;
+}
+.dlg_alert {
+	top: 400px; width: 400px; margin-left: -200px;
+}
+.dlg_alert .con {
+	margin: 40px 10px; text-align: center;
+}
+.show.dlg_alert {
+	display: block;
+}
+.theme-buy {
+	text-align: center;
+}
+.theme-gobuy {
+	font-size: 15px;
+}
+.theme-signin {
+	font-size: 15px;
+}
+.theme-price {
+	bottom: -6px; color: rgb(255, 102, 0); line-height: 32px; font-family: microsoft yahei, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; margin-right: 20px; display: inline-block; position: relative;
+}
+.theme-price dfn {
+	font-size: 18px; font-style: normal; margin-right: 2px;
+}
+.theme-desc {
+	padding: 30px;
+}
+.theme-version {
+	padding: 30px;
+}
+.theme-popover-mask {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 9998; opacity: 0.4;
+}
+.theme-popover {
+	border-radius: 5px; border: 1px solid rgb(102, 102, 102); border-image: none; left: 5%; top: 5%; width: 90%; height: auto; display: none; position: fixed; z-index: 9999; box-shadow: 0px 0px 10px #666; background-color: rgb(255, 255, 255);
+}
+.theme-poptit {
+	padding: 12px; line-height: 45px; font-size: 24px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.theme-popbod {
+	padding: 60px 15px; height: 148px; color: rgb(68, 68, 68);
+}
+.theme-popbom {
+	padding: 15px; border-radius: 0px 0px 5px 5px; color: rgb(102, 102, 102); border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; background-color: rgb(246, 246, 246);
+}
+.theme-popbom a {
+	margin-left: 8px;
+}
+.theme-poptit .close {
+	font: bold 14px/14px simsun; margin: -2px -5px -5px; padding: 5px; color: rgb(153, 153, 153); float: right; font-size-adjust: none; font-stretch: normal; text-shadow: 0px 1px 0px #ddd;
+}
+.theme-poptit .close:hover {
+	color: rgb(68, 68, 68);
+}
+.theme-reg.btn {
+	left: 43%; top: 8px; display: none; position: absolute;
+}
+.inp-gray {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 16px; color: rgb(68, 68, 68); margin-right: 6px; background-color: rgb(253, 253, 253);
+}
+.feed-mail-inp {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 16px; color: rgb(68, 68, 68); margin-right: 6px; background-color: rgb(253, 253, 253);
+}
+.dform {
+	padding: 80px 60px 40px; text-align: center;
+}
+.dform .ipt_error {
+	border-color: rgb(255, 204, 102); background-color: rgb(255, 255, 204);
+}
+.dform-tip {
+	color: rgb(255, 255, 255); line-height: 42px; font-size: 14px; margin-top: 10px; display: none; background-color: rgb(0, 136, 0);
+}
+.dform-tip-errer {
+	background-color: rgb(207, 48, 26);
+}
+.dform-tip a {
+	padding: 0px 20px; color: rgb(207, 48, 26); margin-left: 10px; display: inline-block; background-color: rgb(255, 233, 36);
+}
+.dform-login {
+	padding: 0px; height: 270px; overflow: hidden;
+}
+.dform-login iframe {
+	height: 470px; margin-top: -180px;
+}
+.theme-signin {
+	margin: -50px -20px -50px 90px; text-align: left; font-size: 14px;
+}
+.theme-signin h4 {
+	color: rgb(153, 153, 153); font-size: 12px; font-weight: 100; margin-bottom: 20px;
+}
+.theme-signin li {
+	padding-left: 80px; margin-bottom: 15px;
+}
+.theme-signin li strong {
+	width: 80px; text-align: right; line-height: 32px; margin-left: -80px; float: left;
+}
+.theme-signin .btn {
+	margin-bottom: 10px;
+}
+.theme-signin p {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.theme-desc {
+	padding-top: 0px;
+}
+.theme-version {
+	padding-top: 0px;
+}
+section {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+footer {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+nav {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+em {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+mark {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+p {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+span {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h1 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h2 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h3 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h4 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+input {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+textarea {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+input {
+	border: currentColor; border-image: none;
+}
+textarea {
+	border: currentColor; border-image: none;
+}
+select {
+	border: currentColor; border-image: none;
+}
+mark {
+	background-color: transparent;
+}
+img {
+	border: currentColor; border-image: none; vertical-align: bottom;
+}
+a {
+	color: rgb(50, 50, 50); text-decoration: none; outline-style: none;
+}
+.l_txt {
+	text-align: left;
+}
+.c_txt {
+	text-align: center;
+}
+.r_txt {
+	text-align: right;
+}
+.indent_txt {
+	text-indent: 2em;
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.fix {
+	position: fixed;
+}
+.hide {
+	display: none;
+}
+.no_padd {
+	padding: 0px;
+}
+.no_margin {
+	margin: 0px;
+}
+.margin_auto {
+	margin: 0px auto;
+}
+.t_hide {
+	text-indent: -9999px;
+}
+.bold {
+	font-weight: bold;
+}
+.block {
+	display: block;
+}
+.inline_b {
+	display: inline-block;
+}
+.over_hidden {
+	overflow: hidden;
+}
+.ellipsis {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.wrap {
+	width: 100%;
+}
+.not_render {
+	visibility: hidden;
+}
+.tle_txt {
+	font-size: 14px;
+}
+.wkt_box {
+	
+}
+.i_pri {
+	color: rgb(217, 50, 41); font-size: 16px;
+}
+#login_wrap {
+	background: 0px 0px rgb(255, 255, 255); padding: 15px;
+}
+#login_form_submit {
+	margin-top: 20px;
+}
+#country {
+	width: 100%; height: 35px; line-height: 35px; text-indent: 0px; vertical-align: middle; display: inline-block;
+}
+#login_tle {
+	margin-bottom: 15px;
+}
+.login_input_wrap {
+	height: 50px; line-height: 50px; margin-bottom: 10px;
+}
+#login_select_hack_wrap {
+	width: 100%; height: 35px; line-height: 35px; overflow: hidden; background-color: rgb(246, 246, 246);
+}
+.input_for_login {
+	border-radius: 0px; height: 45px; line-height: normal; text-indent: 6px; font-size: 18px; background-color: rgb(227, 226, 226);
+}
+#forget_pwd_a {
+	color: rgb(88, 107, 149); line-height: 30px; text-decoration: underline;
+}
+.u_btns {
+	background: url("http://callcenter.weiyingjia.cn/qiangmini/css/i/but2.jpg") repeat-x 0% 0% / 100% 60px; width: 100%; color: rgb(255, 255, 255); line-height: 45px; font-size: 24px; display: block; z-index: 9999;
+}
+#loginSMS_tle {
+	padding-bottom: 10px; font-size: 16px;
+}
+#catch_wrap {
+	height: 37px; line-height: 35px; padding-left: 0px; margin-bottom: 10px;
+}
+#safe_code_input {
+	width: 48%; height: 100%;
+}
+#catch_times {
+	width: 48%; height: 100%;
+}
+#catch_code_btn {
+	width: 48%; height: 100%;
+}
+#safe_code_input {
+	border: 1px solid rgb(237, 237, 237); border-image: none; height: 35px; text-indent: 6px;
+}
+#catch_times {
+	top: 0px; right: 0px; z-index: 10;
+}
+#catch_code_btn {
+	top: 0px; right: 0px; z-index: 10;
+}
+#catch_code_btn {
+	color: rgb(255, 255, 255); z-index: 11; background-color: rgb(79, 165, 65);
+}
+#favorite {
+	border-radius: 5px 5px 0px 0px; width: 44px; height: 44px; text-align: center; right: 17px; bottom: 0px; color: rgb(145, 145, 145); line-height: 74px; overflow: hidden; font-size: 10px; position: absolute; background-color: rgb(255, 255, 255);
+}
+#favorite::before {
+	border-radius: 12px 12px 0px 0px; top: 11px; width: 9px; height: 14px; position: absolute; content: ""; background-color: rgb(177, 176, 177);
+}
+#favorite::after {
+	border-radius: 12px 12px 0px 0px; top: 11px; width: 9px; height: 14px; position: absolute; content: ""; background-color: rgb(177, 176, 177);
+}
+#favorite::before {
+	transform-origin: 0% 100% 0px; left: 22px;
+}
+#favorite::after {
+	transform-origin: 100% 100% 0px; left: 14px;
+}
+#favourite_line {
+	left: 0px;
+}
+.fav_un::before {
+	background-color: rgb(189, 32, 33) !important;
+}
+.fav_un::after {
+	background-color: rgb(189, 32, 33) !important;
+}
+#uploadapp {
+	padding-bottom: 60px;
+}
+#uploadapp p.txt {
+	height: 30px; text-align: center; color: rgb(153, 153, 153); line-height: 30px; padding-top: 20px;
+}
+#uploadapp p a {
+	margin: 10px 15px;
+}
+.ellipsis_common_hd {
+	padding-right: 94px; padding-left: 94px;
+}
+.ellipsis_common_hd h1 {
+	width: 100%; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tianxie {
+	width: 90%; text-align: center; color: rgb(255, 255, 255); padding-top: 180px; font-size: 18px; position: relative;
+}
+#mcover {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 20000;
+}
+#mcover img {
+	top: 5px; width: 80%; height: 531px; right: 18px; position: fixed; z-index: 999;
+}
+inner {
+	border-color: transparent;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px;
+}
+ul {
+	margin: 0px;
+}
+ol {
+	margin: 0px;
+}
+p {
+	margin: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+}
+h4 {
+	margin: 0px;
+}
+h5 {
+	margin: 0px;
+}
+h6 {
+	margin: 0px;
+}
+dl {
+	margin: 0px;
+}
+dt {
+	margin: 0px;
+}
+dd {
+	margin: 0px;
+}
+form {
+	margin: 0px;
+}
+textarea {
+	margin: 0px;
+}
+input {
+	margin: 0px;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+ul {
+	padding: 0px;
+}
+ol {
+	padding: 0px;
+}
+input {
+	padding: 0px;
+}
+table {
+	margin: 0px auto; width: 100%; border-collapse: collapse;
+}
+a img {
+	border: 0px currentColor; border-image: none;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; content: " ";
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+img {
+	max-width: 100%;
+}
+object {
+	max-width: 100%;
+}
+audio {
+	max-width: 100%;
+}
+vedio {
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+}
+.btn {
+	display: inline-block; z-index: 100;
+}
+.max_width {
+	margin: 0px auto; width: 640px;
+}
+.modal_bg {
+	display: none;
+}
+.show.modal_bg {
+	display: block;
+}
+.dlg {
+	display: none;
+}
+.show.dlg {
+	display: block;
+}
+.money .contop {
+	height: 764px; position: relative;
+}
+.money .jt {
+	border-radius: 5px; left: 85px; top: 226px; width: 458px; height: 61px; text-align: center; line-height: 61px; position: absolute;
+}
+.money .iptw {
+	top: 552px; width: 100%; color: white; font-size: 31px; position: absolute;
+}
+.money .iptw .des {
+	text-align: center; display: block;
+}
+.money .ipt_mobile {
+	margin: 30px auto 0px; padding: 10px; border-radius: 8px; border: 0px currentColor; border-image: none; width: 363px; height: 50px; color: rgb(51, 51, 51); line-height: 50px; font-size: 30px; display: block;
+}
+.p2.money .contop {
+	height: 672px;
+}
+.money .btnw {
+	background: rgb(250, 42, 42); height: 110px; position: relative;
+}
+.money .btnw .btn {
+	background: rgb(253, 185, 38); border-radius: 8px; left: 50%; top: 24px; width: 240px; height: 85px; text-align: center; color: rgb(250, 41, 44); line-height: 85px; font-size: 29px; display: block; position: absolute;
+}
+.money .btnw .btn:hover {
+	background: rgb(247, 192, 74);
+}
+.money .btnw .btn_download {
+	margin-left: -275px;
+}
+.money .btnw .btn_invite {
+	margin-left: 34px;
+}
+.btn_qqian {
+	left: 45%; height: 78px; bottom: -27px; display: block;
+}
+.sharelq {
+	background: rgb(255, 255, 255); padding: 20px 0px 10px; color: rgb(255, 0, 0);
+}
+.sharelq .p {
+	margin: 0px auto; width: 90%; text-align: center; color: rgb(255, 70, 0); display: block;
+}
+.sharelq .p3 {
+	font-family: "Microsoft YaHei" !important; font-size: 24px; font-weight: 600;
+}
+.pbotm {
+	background: rgb(250, 42, 42); padding: 60px 0px 40px;
+}
+.pbotm .p {
+	margin: 0px auto; width: 90%; text-align: center; color: white; display: block;
+}
+.pbotm .p1 {
+	width: 160px; font-size: 26px;
+}
+.pbotm .p1 span {
+	font-family: "arial";
+}
+.pbotm .p2 {
+	color: rgb(253, 244, 143); font-size: 25px; margin-top: 25px;
+}
+.pbotm .p3 {
+	font-size: 35px; margin-top: 20px;
+}
+.qresult {
+	top: 385px; width: 100%; position: absolute;
+}
+.qresult .w {
+	text-align: center; color: white; display: block;
+}
+.qresult .num {
+	font-size: 54px;
+}
+.qresult .nb {
+	font-size: 24px;
+}
+.qresult .y {
+	text-align: center; color: rgb(252, 245, 138); font-size: 21px; margin-top: 15px; display: block;
+}
+.y2.qresult {
+	font-size: 24px;
+}
+.modal_bg {
+	background: black; left: 50%; top: 0px; width: 640px; height: 100%; margin-left: -320px; position: fixed; z-index: 400; opacity: 0.5;
+}
+.dlg {
+	background: white; border-radius: 8px; left: 50%; top: 92px; width: 600px; margin-left: -300px; position: absolute; z-index: 500; box-shadow: 0px 0px 3px #ccc;
+}
+.dlg .conw {
+	margin: 26px 16px 16px;
+}
+.dlg .conw .ti {
+	text-align: center; color: rgb(94, 94, 94); font-size: 28px; font-weight: bold;
+}
+.dlg .conw .con {
+	color: rgb(120, 120, 120); line-height: 30px; font-size: 22px;
+}
+.btn_close {
+	background: rgb(255, 172, 60); margin: 30px auto 0px; border-radius: 8px; width: 150px; height: 60px; text-align: center; color: white; line-height: 60px; font-size: 22px; display: block;
+}
+.dlg_invite {
+	left: 50%; top: 0px; width: 640px; margin-left: -320px; display: none; position: absolute; z-index: 500;
+}
+.show.dlg_invite {
+	display: block;
+}
+.dlg_invite img {
+	top: 30px; right: 80px; display: block; position: absolute;
+}
+.dlg_invite p {
+	left: 0px; top: 370px; width: 100%; text-align: center; color: white; font-size: 30px; display: block; position: absolute;
+}
+.dlg_invite .btn_know {
+	left: 50%; top: 574px; width: 130px; height: 42px; text-align: center; color: rgb(234, 144, 58); line-height: 42px; font-size: 32px; margin-left: -65px; border-bottom-color: rgb(163, 131, 108); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: absolute;
+}
+.invite_bg {
+	opacity: 0.7;
+}
+.dlg_alert {
+	top: 400px; width: 400px; margin-left: -200px;
+}
+.dlg_alert .con {
+	margin: 40px 10px; text-align: center;
+}
+.show.dlg_alert {
+	display: block;
+}
+.theme-buy {
+	text-align: center;
+}
+.theme-gobuy {
+	font-size: 15px;
+}
+.theme-signin {
+	font-size: 15px;
+}
+.theme-price {
+	bottom: -6px; color: rgb(255, 102, 0); line-height: 32px; font-family: microsoft yahei, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; margin-right: 20px; display: inline-block; position: relative;
+}
+.theme-price dfn {
+	font-size: 18px; font-style: normal; margin-right: 2px;
+}
+.theme-desc {
+	padding: 30px;
+}
+.theme-version {
+	padding: 30px;
+}
+.theme-popover-mask {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 9998; opacity: 0.4;
+}
+.theme-popover {
+	border-radius: 5px; border: 1px solid rgb(102, 102, 102); border-image: none; left: 5%; top: 5%; width: 90%; height: auto; display: none; position: fixed; z-index: 9999; box-shadow: 0px 0px 10px #666; background-color: rgb(255, 255, 255);
+}
+.theme-poptit {
+	padding: 12px; line-height: 45px; font-size: 24px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.theme-popbod {
+	padding: 60px 15px; height: 148px; color: rgb(68, 68, 68);
+}
+.theme-popbom {
+	padding: 15px; border-radius: 0px 0px 5px 5px; color: rgb(102, 102, 102); border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; background-color: rgb(246, 246, 246);
+}
+.theme-popbom a {
+	margin-left: 8px;
+}
+.theme-poptit .close {
+	font: bold 14px/14px simsun; margin: -2px -5px -5px; padding: 5px; color: rgb(153, 153, 153); float: right; font-size-adjust: none; font-stretch: normal; text-shadow: 0px 1px 0px #ddd;
+}
+.theme-poptit .close:hover {
+	color: rgb(68, 68, 68);
+}
+.theme-reg.btn {
+	left: 43%; top: 8px; display: none; position: absolute;
+}
+.inp-gray {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 16px; color: rgb(68, 68, 68); margin-right: 6px; background-color: rgb(253, 253, 253);
+}
+.feed-mail-inp {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 16px; color: rgb(68, 68, 68); margin-right: 6px; background-color: rgb(253, 253, 253);
+}
+.dform {
+	padding: 80px 60px 40px; text-align: center;
+}
+.dform .ipt_error {
+	border-color: rgb(255, 204, 102); background-color: rgb(255, 255, 204);
+}
+.dform-tip {
+	color: rgb(255, 255, 255); line-height: 42px; font-size: 14px; margin-top: 10px; display: none; background-color: rgb(0, 136, 0);
+}
+.dform-tip-errer {
+	background-color: rgb(207, 48, 26);
+}
+.dform-tip a {
+	padding: 0px 20px; color: rgb(207, 48, 26); margin-left: 10px; display: inline-block; background-color: rgb(255, 233, 36);
+}
+.dform-login {
+	padding: 0px; height: 270px; overflow: hidden;
+}
+.dform-login iframe {
+	height: 470px; margin-top: -180px;
+}
+.theme-signin {
+	margin: -50px -20px -50px 90px; text-align: left; font-size: 14px;
+}
+.theme-signin h4 {
+	color: rgb(153, 153, 153); font-size: 12px; font-weight: 100; margin-bottom: 20px;
+}
+.theme-signin li {
+	padding-left: 80px; margin-bottom: 15px;
+}
+.theme-signin li strong {
+	width: 80px; text-align: right; line-height: 32px; margin-left: -80px; float: left;
+}
+.theme-signin .btn {
+	margin-bottom: 10px;
+}
+.theme-signin p {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.theme-desc {
+	padding-top: 0px;
+}
+.theme-version {
+	padding-top: 0px;
+}
+section {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+footer {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+nav {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+em {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+mark {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+p {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+span {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h1 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h2 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h3 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+h4 {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+input {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+textarea {
+	list-style: none; margin: 0px; padding: 0px; font-style: normal; font-weight: normal;
+}
+input {
+	border: currentColor; border-image: none;
+}
+textarea {
+	border: currentColor; border-image: none;
+}
+select {
+	border: currentColor; border-image: none;
+}
+mark {
+	background-color: transparent;
+}
+img {
+	border: currentColor; border-image: none; vertical-align: bottom;
+}
+a {
+	color: rgb(50, 50, 50); text-decoration: none; outline-style: none;
+}
+.l_txt {
+	text-align: left;
+}
+.c_txt {
+	text-align: center;
+}
+.r_txt {
+	text-align: right;
+}
+.indent_txt {
+	text-indent: 2em;
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.fix {
+	position: fixed;
+}
+.hide {
+	display: none;
+}
+.no_padd {
+	padding: 0px;
+}
+.no_margin {
+	margin: 0px;
+}
+.margin_auto {
+	margin: 0px auto;
+}
+.t_hide {
+	text-indent: -9999px;
+}
+.bold {
+	font-weight: bold;
+}
+.block {
+	display: block;
+}
+.inline_b {
+	display: inline-block;
+}
+.over_hidden {
+	overflow: hidden;
+}
+.ellipsis {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.wrap {
+	width: 100%;
+}
+.not_render {
+	visibility: hidden;
+}
+.tle_txt {
+	font-size: 14px;
+}
+.wkt_box {
+	
+}
+.i_pri {
+	color: rgb(217, 50, 41); font-size: 16px;
+}
+#login_wrap {
+	background: 0px 0px rgb(255, 255, 255); padding: 15px;
+}
+#login_form_submit {
+	margin-top: 20px;
+}
+#country {
+	width: 100%; height: 35px; line-height: 35px; text-indent: 0px; vertical-align: middle; display: inline-block;
+}
+#login_tle {
+	margin-bottom: 15px;
+}
+.login_input_wrap {
+	height: 50px; line-height: 50px; margin-bottom: 10px;
+}
+#login_select_hack_wrap {
+	width: 100%; height: 35px; line-height: 35px; overflow: hidden; background-color: rgb(246, 246, 246);
+}
+.input_for_login {
+	border-radius: 0px; height: 45px; line-height: normal; text-indent: 6px; font-size: 18px; background-color: rgb(227, 226, 226);
+}
+#forget_pwd_a {
+	color: rgb(88, 107, 149); line-height: 30px; text-decoration: underline;
+}
+.u_btns {
+	background: url("http://callcenter.weiyingjia.cn/qiangmini/css/i/but2.jpg") repeat-x 0% 0% / 100% 60px; width: 100%; color: rgb(255, 255, 255); line-height: 45px; font-size: 24px; display: block; z-index: 9999;
+}
+#loginSMS_tle {
+	padding-bottom: 10px; font-size: 16px;
+}
+#catch_wrap {
+	height: 37px; line-height: 35px; padding-left: 0px; margin-bottom: 10px;
+}
+#safe_code_input {
+	width: 48%; height: 100%;
+}
+#catch_times {
+	width: 48%; height: 100%;
+}
+#catch_code_btn {
+	width: 48%; height: 100%;
+}
+#safe_code_input {
+	border: 1px solid rgb(237, 237, 237); border-image: none; height: 35px; text-indent: 6px;
+}
+#catch_times {
+	top: 0px; right: 0px; z-index: 10;
+}
+#catch_code_btn {
+	top: 0px; right: 0px; z-index: 10;
+}
+#catch_code_btn {
+	color: rgb(255, 255, 255); z-index: 11; background-color: rgb(79, 165, 65);
+}
+#favorite {
+	border-radius: 5px 5px 0px 0px; width: 44px; height: 44px; text-align: center; right: 17px; bottom: 0px; color: rgb(145, 145, 145); line-height: 74px; overflow: hidden; font-size: 10px; position: absolute; background-color: rgb(255, 255, 255);
+}
+#favorite::before {
+	border-radius: 12px 12px 0px 0px; top: 11px; width: 9px; height: 14px; position: absolute; content: ""; background-color: rgb(177, 176, 177);
+}
+#favorite::after {
+	border-radius: 12px 12px 0px 0px; top: 11px; width: 9px; height: 14px; position: absolute; content: ""; background-color: rgb(177, 176, 177);
+}
+#favorite::before {
+	transform-origin: 0% 100% 0px; left: 22px;
+}
+#favorite::after {
+	transform-origin: 100% 100% 0px; left: 14px;
+}
+#favourite_line {
+	left: 0px;
+}
+.fav_un::before {
+	background-color: rgb(189, 32, 33) !important;
+}
+.fav_un::after {
+	background-color: rgb(189, 32, 33) !important;
+}
+#uploadapp {
+	padding-bottom: 60px;
+}
+#uploadapp p.txt {
+	height: 30px; text-align: center; color: rgb(153, 153, 153); line-height: 30px; padding-top: 20px;
+}
+#uploadapp p a {
+	margin: 10px 15px;
+}
+.ellipsis_common_hd {
+	padding-right: 94px; padding-left: 94px;
+}
+.ellipsis_common_hd h1 {
+	width: 100%; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tianxie {
+	width: 90%; text-align: center; color: rgb(255, 255, 255); padding-top: 180px; font-size: 18px; position: relative;
+}
+#mcover {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 20000;
+}
+#mcover img {
+	top: 5px; width: 80%; height: 531px; right: 18px; position: fixed; z-index: 999;
+}

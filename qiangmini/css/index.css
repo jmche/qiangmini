@@ -1,0 +1,378 @@
+#divTip {
+	padding: 8px 0px; text-align: center; color: red;
+}
+body {
+	margin: 0px auto; max-width: 640px;
+}
+.weixin-guide-mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; position: fixed; z-index: 2; background-color: rgba(0, 0, 0, 0.5);
+}
+.weixin-guide {
+	border-radius: 10px; left: 50%; top: 0px; width: 300px; height: 115px; color: rgb(51, 51, 51); font-size: 15px; margin-left: -150px; position: fixed; z-index: 999; background-color: rgb(237, 237, 237);
+}
+.weixin-guide p {
+	padding-top: 13px; padding-left: 17px;
+}
+.isad {
+	width: 25px; height: 14px; display: inline-block;
+}
+.iguide {
+	left: 162px; top: 6px; width: 125px; height: 53px; display: inline-block; position: absolute;
+}
+.ismile {
+	width: 25px; height: 14px; display: inline-block;
+}
+.mod-invite-code {
+	margin: 30px auto 0px; padding: 15px 0px; border-radius: 10px; border: 1px solid rgb(236, 236, 236); border-image: none; width: 170px; text-align: center; color: rgb(147, 147, 147); font-weight: bold;
+}
+.mod-invite-code em {
+	color: rgb(44, 195, 76); font-weight: bold;
+}
+.index_info {
+	margin: 0px auto; padding: 0px; text-align: center; overflow: hidden; position: relative; max-width: 640px;
+}
+.index_pic {
+	padding: 0px;
+}
+.index_pic img {
+	padding: 0px; width: 100%; height: auto; overflow: hidden; display: block;
+}
+.index_title h2 {
+	font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", ËÎÌו, sans-serif; margin: 0px; padding: 10px 0px; text-align: left; color: rgb(112, 112, 112); font-size-adjust: none; font-stretch: normal;
+}
+.price {
+	background: url("http://callcenter.weiyingjia.cn/qiangmini/css/i/pricebg.png") no-repeat center / 100%; padding: 0px 0px 10px; width: 100%; height: 50px; color: rgb(112, 112, 112); font-size: 14px; font-weight: bold; position: relative;
+}
+.personnum {
+	width: 200px; height: 30px; text-align: right; color: rgb(255, 0, 0); font-size: 14px; margin-top: 25px; margin-right: 14%; float: right; position: relative;
+}
+.pricel {
+	font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", ËÎÌו, sans-serif; width: 50%; text-align: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.pricer {
+	font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", ËÎÌו, sans-serif; width: 50%; text-align: right; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.priceb {
+	color: rgb(236, 81, 81); font-size: 20px; font-weight: bold; display: inline-block;
+}
+.pricer span {
+	color: rgb(236, 81, 81); font-size: 14px; font-weight: bold; display: inline-block;
+}
+.s-detail a {
+	color: rgb(51, 51, 51);
+}
+.s-detail header {
+	top: 0px; margin-top: 10px; z-index: 1;
+}
+.s-detail header ul {
+	text-align: center; font-size: 0.8rem;
+}
+.s-detail header ul li {
+	line-height: 2.4rem; margin-right: 1px; border-top-color: rgb(248, 248, 248); border-top-width: 1px; border-top-style: solid; box-sizing: border-box; -webkit-box-flex: 1; -webkit-box-sizing: border-box;
+}
+.s-detail header ul li.current {
+	border-top-color: rgb(238, 106, 106); border-top-width: 0.1rem; border-top-style: solid; position: relative; background-color: rgb(255, 255, 255);
+}
+.s-detail header ul li.current .mod {
+	display: block;
+}
+.s-detail header ul li .review-count {
+	color: rgb(102, 102, 102); font-size: 0.76rem;
+}
+.s-detail header ul li > a {
+	height: 100%; display: block;
+}
+.s-detail .wrap {
+	overflow: hidden;
+}
+.s-detail .wrap .scroller {
+	
+}
+.s-detail .wrap .scroller .current {
+	overflow: visible;
+}
+.s-detail .m-review {
+	width: 100%; padding-bottom: 0.5rem; min-height: 23rem; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.s-detail .m-recommend {
+	width: 100%; padding-bottom: 0.5rem; min-height: 23rem; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.s-detail .desc {
+	background: rgb(255, 255, 255);
+}
+.s-detail .desc img {
+	width: 100%; height: auto; display: block;
+}
+.s-detail .desc p {
+	-webkit-margin-before: -0.4em;
+}
+.s-detail .list li {
+	background: rgb(255, 255, 255); padding: 0.5rem; margin-bottom: 0.5rem;
+}
+.s-detail .list li .tit {
+	background: rgb(248, 248, 248); padding: 0px 0.5rem; height: 2.2rem; text-align: right; color: rgb(153, 153, 153); line-height: 2.2rem;
+}
+.s-detail .list li .tit span {
+	color: rgb(51, 51, 51); float: left;
+}
+.s-detail .list li p {
+	padding: 0px 0.5rem; line-height: 1.5rem; display: block;
+}
+.s-detail .list li .star {
+	width: 5.8rem; height: auto; vertical-align: middle;
+}
+.s-detail .commentsList {
+	background: rgb(255, 255, 255); padding: 0.5rem;
+}
+.s-detail .commentsList td {
+	padding: 5px 0px;
+}
+.s-detail .m-recommend li {
+	border-radius: 0.13rem; width: 49%; margin-bottom: 0.52rem; float: left; -webkit-border-radius: 0.13rem;
+}
+.s-detail .m-recommend a {
+	display: block;
+}
+.s-detail .m-recommend .summary {
+	position: relative; background-color: rgb(255, 255, 255); -webkit-box-align: center; -webkit-box-pack: center;
+}
+.s-detail .m-recommend .summary img {
+	width: 100%; height: auto; display: block;
+}
+.s-detail .m-recommend .summary .price {
+	padding: 0.3rem 0px; left: 0px; text-align: center; right: 0px; bottom: 0px; position: absolute; background-color: rgba(255, 255, 255, 0.7);
+}
+.s-detail .m-recommend .reviews {
+	padding: 0px 0.5rem; color: rgb(153, 153, 153); border-top-color: rgb(242, 242, 242); border-top-width: 1px; border-top-style: solid;
+}
+.s-detail .m-recommend .reviews blockquote {
+	padding: 0.5rem 0px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.s-detail .m-recommend .reviews blockquote:last-child {
+	border: 0px currentColor; border-image: none;
+}
+.s-detail .m-recommend .reviews .user {
+	color: rgb(51, 51, 51); margin-right: 1rem;
+}
+.s-detail #tab2 img {
+	width: 100%; height: auto; margin-bottom: 10px; display: block;
+}
+.html {
+	height: 100%; font-size: 0.62rem;
+}
+body {
+	height: 100%; -webkit-overflow-scrolling: touch;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 100%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 100%;
+}
+address {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+button {
+	font-size: 100%;
+}
+input {
+	font-size: 100%;
+}
+select {
+	font-size: 100%;
+}
+textarea {
+	font-size: 100%;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+input[type=submit] {
+	-webkit-appearance: none;
+}
+input[type=reset] {
+	-webkit-appearance: none;
+}
+input[type=button] {
+	-webkit-appearance: none;
+}
+button {
+	-webkit-appearance: none;
+}
+* {
+	margin: 0px; padding: 0px; outline: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+input[type='text'] {
+	outline: 0px; -webkit-appearance: none; -webkit-tap-highlight-color: #fff;
+}
+input[type='search'] {
+	outline: 0px; -webkit-appearance: none; -webkit-tap-highlight-color: #fff;
+}
+.inputBg {
+	background: rgb(255, 255, 255); padding: 0px 3%; border: 1px solid rgb(221, 221, 221); border-image: none; width: 94%; height: 2.4rem; color: rgb(51, 51, 51); font-size: 0.8rem; -webkit-border-radius: 0;
+}
+.inputBg2 {
+	background: rgb(255, 255, 255); padding: 3%; border: 1px solid rgb(221, 221, 221); border-image: none; width: 94%; color: rgb(51, 51, 51); font-size: 0.8rem; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+.pop-share {
+	background: url("http://callcenter.weiyingjia.cn/qiangmini/css/images/share.png") no-repeat center 10px / 90% auto rgba(0, 0, 0, 0.8); left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; position: fixed; z-index: 99;
+}
+.padd1 {
+	padding: 0.5rem;
+}
+.padd2 {
+	padding: 1rem;
+}
+.w50 {
+	width: 50%;
+}
+.w40 {
+	width: 40%;
+}
+.w30 {
+	width: 30%;
+}
+.w20 {
+	width: 20%;
+}
+.w10 {
+	width: 10%;
+}
+a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.c-btn1 {
+	background: rgb(236, 81, 81); padding: 0px 2rem; border-radius: 5px; border: currentColor; border-image: none; width: 5rem; height: 2rem; color: rgb(255, 255, 255); line-height: 2rem; font-size: 0.8rem; display: inline-block;
+}
+.c-btn2 {
+	background: rgb(236, 81, 81); border: 0px currentColor; border-image: none; width: 40%; height: 2.5rem; text-align: center; color: rgb(255, 255, 255); line-height: 2.5rem; font-size: 0.9rem; display: block; -webkit-box-flex: 1; -webkit-user-select: none;
+}
+.c-btn2 a {
+	color: rgb(255, 255, 255);
+}
+.c-btn2 a:visited {
+	color: rgb(255, 255, 255);
+}
+.c-btn3 {
+	background: rgb(238, 106, 106); border: 0px currentColor; border-image: none; width: 100%; height: 2.5rem; text-align: center; color: rgb(255, 255, 255); line-height: 2.5rem; font-size: 0.9rem; display: block; -webkit-box-flex: 1; -webkit-user-select: none;
+}
+.c-btn4 {
+	background: rgb(0, 210, 13); border: 0px currentColor; border-image: none; width: 100%; height: 2.5rem; text-align: center; color: rgb(255, 255, 255); line-height: 2.5rem; font-size: 0.9rem; display: block; -webkit-box-flex: 1; -webkit-user-select: none;
+}
+.hidden {
+	display: none;
+}
+.wrap {
+	padding: 0px 0rem;
+}
+.price_s {
+	color: rgb(236, 81, 81); font-size: 0.67rem; display: inline-block;
+}
+.price {
+	color: rgb(236, 81, 81); font-size: 1rem; font-weight: bold; display: inline-block;
+}
+.c333 {
+	color: rgb(51, 51, 51);
+}
+.c999 {
+	color: rgb(153, 153, 153);
+}
+.flex {
+	list-style: none; margin: 0px; padding: 0px; display: flex; justify-content: space-around; -webkit-flex-flow: row wrap;
+}
+.flex-f-row {
+	-webkit-flex-flow: row;
+}
+.flex_in {
+	-webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1;
+}
+.box1 {
+	background: rgb(255, 255, 255); border: 1px solid rgb(226, 226, 226); border-image: none;
+}
+.f_l {
+	float: left;
+}
+.f_r {
+	float: right;
+}
+.blank1 {
+	height: 0.4rem; line-height: 0.4rem; clear: both; visibility: hidden;
+}
+.blank2 {
+	height: 0.6rem; line-height: 0.6rem; clear: both; visibility: hidden;
+}
+.blank3 {
+	height: 1rem; line-height: 1rem; clear: both; visibility: hidden;
+}
+.mr-t20 {
+	margin-top: 20px;
+}
+.mr-t30 {
+	margin-top: 30px;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+* + html .clearfix {
+	height: 1%;
+}
+.clearfix::after {
+	width: 100%; height: 0px; overflow: hidden; clear: both; visibility: hidden; content: "";
+}
+.subcenter {
+	text-align: center;
+}
+.btn-doc {
+	border: 1px solid rgb(229, 229, 229); border-image: none; text-align: center; text-decoration: none; margin-top: 20px; display: block; cursor: pointer;
+}
+.register-submit {
+	line-height: 44px; font-size: 24px;
+}
+.register-submit span {
+	padding-bottom: 10px;
+}
+.btn-solid {
+	border-color: rgb(255, 137, 3); color: rgb(255, 255, 255); background-color: rgb(255, 137, 3);
+}
+.btn-solid:hover {
+	border-color: rgb(255, 160, 51); text-decoration: none; background-color: rgb(255, 160, 51);
+}
+.btn-solid:active {
+	border-color: rgb(236, 125, 0); background-color: rgb(236, 125, 0);
+}
