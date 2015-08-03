@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,li,ul,h1,p,h3,dl,dd,dt,input,form,table,tr,td,th,h2,h4,h5{ margin:0; padding:0;font-family:"微软雅黑"; font-size:16px;}
+body{  height:100%}
+.box{ width:100%; margin:0 auto; height:100%}
+a{ text-decoration:none; color:#fff}
+a:hover{ color:#02AAE9}
+li{ list-style:none}
+h1{ font-weight:400}
+input{ vertical-align:middle; border:none; width:220px; height:30px; line-height:30px; border:#CCC 1px solid}
+table{ border-collapse:collapse;width:100%}
+/*common/*/
+.common{ height:88px; line-height:88px; background-color:#394F5D; color:#fff;  padding:0 3%; position:fixed; z-index:1; width:94%}
+.common span{ float:left}
+.common .f1{  float:right}
+.bottom{ width:100%}
+.bottom .left,.box .bottom .right{ float:left}
+.bottom .left{ width:15%; background-color:#02AAE9; position:fixed; height:100%; margin-top:88px; padding-top:1%}
+.bottom .right{ width:80%; margin-left:15%; margin-top:88px; padding:2%}
+.bottom .left ul{ width:100%; margin-left:20px ;}
+.bottom .left ul li{ height:auto; line-height:40px}
+.bottom .left ul li a{ font-size:16px; display:block}
+.bottom .left ul li a:hover{ color:#02AAE9; background-color:#FFF}
+.bottom .left ul li .current{ color:#02AAE9; background-color:#FFF}
+.bottom .left .menulist>li .current1{ background-color:#fff; color:#02AAE9}
+.bottom .left .menulist>li>ul>li .current1{ background-color:#fff; color:#02AAE9}
+.bottom .left .menulist>li>ul>li>a{ width:81%}
+.bottom .left .menulist>li>a{ width:91%}
+.right .xxk ul{ overflow:hidden}
+.right .xxk li{ float:left; width:20%; background-color:#394F5D; height:40px; line-height:40px; color:#fff; font-size:16px; text-align:center; font-weight:400; border:#A0A0A0 3px solid; cursor:pointer}
+.right .xxk .current1{ color:#f00; background-color:#fff}
+.right .xxk .bor{ /* border-right:none; */}
+.right .xxk1{ margin-top:3%}
+.right .xxk1 table{ width:100%; clear:both}
+.right .xxk1 td a{ color:#000}
+
+.right .xxk1 .small h5{ width:50%; padding-right:20px; height:57px; line-height:57px;  font-weight:400;padding-left: 24%;}
+.right .xxk1 .small h5 span{ width:20%; padding-right:20px; float:left}
+
+.right .xxk1 .small p{ width:50%; text-align:right; padding-right:20px; height:57px; line-height:57px;}
+.right .xxk1 .small p span,.right .xxk1 .small p input{ float:left}
+.right .xxk1 .small p span{ width:20%; padding-right:20px}
+.right .xxk1 .small p input{ width:50%}
+.right .xxk1 .small p .th1{ width:10%}
+.right .xxk1 .small p .sub3{ background-color:#02AAE9; color:#fff; border:none; border-radius:5px; position:relative; left:22%; top:10%; cursor:pointer}
+
+tr,th{ border:#CCC 1px solid; text-align:center; font-size:16px;  line-height:40px}
+td{ border:#CCC 1px solid; text-align:center; font-size:14px; height:30px; line-height:30px}
+.right .xxk2{ height:32px; line-height:32px; color:#7E7E7E; margin-top:2%; }
+.right .xxk2 span{ background:url(http://hongbao.weiyingjia.cn/images/hryg/5.png) no-repeat left center; float:left; width:32px; height:32px; line-height:32px; text-align:center; color:#7E7E7E; cursor:pointer; margin:0px 0.3%; vertical-align:middle}
+.right .xxk2 a{ float:left; color:#7E7E7E;margin-right: 15px;}
+.right .xxk2 a:hover{ color:#7E7E7E}
+.right .xxk2 span:hover{ background:url(http://hongbao.weiyingjia.cn/images/hryg/4.png) no-repeat left center; color:#fff}
+.right .xxk2 img{ float:left; vertical-align:middle; cursor:pointer}
+.right .xxk2 input{ width:50px; height:32px; line-height:32px}
+.right .xxk2 .sub{ background-color:#02AAE9; color:#fff; cursor:pointer}
+/*index/*/
+.right .xxk h1,.right .right1 h1{ background-color:#B28750; height:40px; line-height:40px; width:7%; border-radius:8px; color:#fff; padding-left:1%}
+.right .xxk p{ font-weight:400; margin: 0px auto;}
+.right .xxk .tab1{ width:50%}
+.right .xxk .tab1 tr,.right .xxk .tab1 td{ border:none; text-align:left;}
+/*lishi/*/
+.right .xxk .tab2{ width:80%}
+.right .xxk .tab2 input{ width:100px; height:35px; line-height:35px; text-align:center; margin:0 10px; background-color:#02AAE9; border:none; color:#fff; cursor:pointer; border-radius:5px}
+.right .xxk .tab2 .yes{ background-color:#f00}
+.right .xxk .tab2 .no{ background-color:#707070}
+/*guanli/*/
+.right .xxk3 h1{ background:#B28750 url(http://hongbao.weiyingjia.cn/images/hryg/6.png) no-repeat 280px center; cursor:pointer}
+.right .xxk3 h1 a:hover{ color:#fff}
+.right .xxk .tab3{ width:95%}
+.right .xxk .tab3 td{ font-size:14px}
+.right .xxk .tab3 .td1{ width:20%}
+.right .xxk .tab3 .td2{ width:13%}
+.right .xxk .tab3 .td2 a{ width:80%; border: 3px solid rgb(2, 170, 233); background-color:#02AAE9; color:#fff; margin:10px}
+.right .xxk h2{ }
+/*jifen/*/
+.right .w1 h1{text-align:right}
+.right .w1 p{ line-height:55px; width:80%; height:55px}
+.right .w1 textarea{ }
+.right .w1 p input{  width:50%; vertical-align:middle}
+.right .w4 p .s1 input{ width:100%}
+.right .w5 p span{ height:55px; line-height:55px}
+.right .w5 p input{ width:22.2%}
+.right .w7 p span input{ width:100%; line-height:20px; border:none}
+
+.right .w1{ width:80%}
+.right .w1 h1{line-height:55px; width:17%}
+
+.right .w2 p{ border:#999 1px solid; width:80%; height:55px; text-align:center; line-height:55px}
+.right .w2 p a{ width:100%; display:block; color:#666}
+.right .w2 p a:hover{ color:#02AAE9}
+.right .w2 p,.right .w2 h1,.right .w3 textarea,.right .w3 h1,.right .w4 p,.right .w4 h1,.right .w5 p,.right .w5 h1,.right .w6 p,.right .w6 h1{ float:left;font-family:"微软雅黑"; font-size:16px;}
+.right .w3 textarea{  width:39.5%;height:60px; resize:none;}
+.right .w4 p{ line-height:40px; height:40px}
+.right .w4 p .s1{ color:#f00}
+.right .w4 p img{ vertical-align:middle}
+.right .w4 p .s2{ padding:0 40px}
+.right .w5 p{ line-height:100px; }
+.right .w5 p span{ padding:0 10px}
+.right .w6{ height:250px}
+.right .w6 p{ border:#999 1px solid; margin-top:3%; width:79%; padding:1%}
+.right .w6 span{  display:block; line-height:50px}
+.right .int{ text-align:right; width:80%; padding-top:2%}
+.right .int input{ border:none; width:200px; height:50px; line-height:50px; background-color:#02AAE9; color:#fff; border-radius:8px;cursor:pointer}
+/*jifen1/*/
+.guan table{ width:80%}
+.guan table input{ width:25%; margin:0 2%; background-color:#707070; border:none; color:#fff; font-size:18px}
+/*guanli/*/
+.right form{  width:100%; overflow:hidden}
+.right form select{ color:#666; font-size:16px; height:25px; line-height:25px}
+.right form div{ width:100%; line-height:55px; overflow:hidden;margin: 10px 10%;}
+.right form input,.right form label{ float:left}
+.right form label{ text-align:right; width:15%; }
+.right form input{ display:block; border:none; border:#999 1px solid; width:26%;  line-height:40px; margin: 10px;}
+.right form .sub1{ border:none; width:200px; height:50px; line-height:50px; background-color:#02AAE9; color:#fff; border-radius:8px; cursor:pointer; margin:5% 0 0 27%}
+.right form p{ height:70px; line-height:70px;}
+.right form p span,.right form p input{ float:left; vertical-align:middle}
+.right form p input{ width:15%;  line-height:30px; color:#666}
+.right form p .sub2{ width:10%; border:none; background-color:#02AAE9; color:#fff; border-radius:8px}
+/*mmm/*/
+.bottom .ban{ display:block; text-align:center; padding-top:6%}
+.deng{ width:60%; margin:0 auto; padding:2% 0}
+.deng h1{  font-weight:400}
+.deng form{ margin-top:5%}
+.deng form div{ margin:2% 8%; font-weight:400; font-family:"宋体"; width:100%; height:40px; line-height:40px}
+.deng form div label,.deng form div input,.deng form div img,.deng form div span{ float:left}
+.deng form div label{ width:10%; text-align:right; height:40px; line-height:40px}
+.deng form div input{ width:45%; vertical-align:middle; height:40px; line-height:40px; border-radius:8px}
+.deng form div .yan{ width:18%}
+.deng form div img{ margin-left:2%}
+.deng form div span{ width:20%}
+.deng form div span a{ color:#02AAE9;  line-height:70px; padding-left:5%; float:left; text-decoration:underline}
+.bottom .int{ width:40%; margin:0 auto}
+.bottom .int input{ border:none; width:200px; height:50px; line-height:50px; background-color:#02AAE9; color:#fff; border-radius:8px; cursor:pointer}
+
+.mytable{
+width:100%
+}
+.mytable span{  float:left; text-align: center; line-height:28px; margin: 0px 5px 10px 5px;}
+.mytable .s3{ width:7%}
+.mytable .s4{ width:20%}
+.mytable .s4 input{ width:45%; float:left}
+.mytable .s5{ padding-left:4%}
+.mytable .s5 input{ width:10%; height:25px; line-height:25px}
+.mytable span input{
+	vertical-align: middle; width:110px;height:25px; line-height:25px;margin: 0px;
+}
+
+.hide1{display:none;}
+.show1{display:block;}
+
+
+
+
+
+
+
+
+
+
+
+

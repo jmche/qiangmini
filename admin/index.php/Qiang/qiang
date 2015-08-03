@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<title>0元抢列表</title>
+
+<link type="text/css" rel="stylesheet" href="../../neiku/my.css" />
+<script type="text/javascript" src="../../neiku/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+/**
+ * 
+ * @since   Version 1.0  $date 2008-10-07  
+ * @desc  ajax for editpwd
+ * @filesource  
+ **/
+
+ /**
+ * @desc Create XMLHttpRequest
+ */
+ function createXMLHttpRequest(){
+     if(window.XMLHttpRequest){
+        XMLHttp = new XMLHttpRequest();//mozilla浏览器
+     }
+     else if(window.ActiveXObject){
+         try{
+            XMLHttp = new ActiveXObject("Msxml2.XMLHTTP");//IE老版本
+         }catch(e){}
+         try{
+             XMLHttp = new ActiveXObject("Microsoft.XMLHTTP");//IE新版本
+         }catch(e){}
+         if(!XMLHttp){
+            window.alert("不能创建XMLHttpRequest对象实例");
+            return false;
+         }
+     }
+ }
+ /**
+ * @desc Send datas to Server
+ */
+function dostart() { 
+	createXMLHttpRequest();
+	var usr=document.getElementById("sheng").value;//获取id为usr的值
+	 //alert(usr);
+	var url = '/index.php/Qiang/city?code='+usr;//将回调函数赋给这个值、状态只要改变就触发函数
+	//alert(url);
+	XMLHttp.open("GET",url,true);//open建立对服务器的调用，
+	//url是地址。true、可以在前台做其他 操作；可以再等待响应时间内做其他操作
+	XMLHttp.onreadystatechange = readusr;
+	//XMLHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded;");
+	XMLHttp.send(null);//向服务器发送请求
+} 
+
+/**
+* @desc Recieve dates from Server
+*/
+function readusr() { 
+  if(XMLHttp.readyState == 4) { 
+      if(XMLHttp.status == 200){ 
+     // alert(XMLHttp.responseText);
+	  document.getElementById('display').innerHTML=XMLHttp.responseText;
+	  }	  
+    } 
+} 
+
+</script>
+
+<body>
+
+<div class="box">
+   
+     <div class="right">
+       <div class="xxk">
+         	 
+         <div class="xxk1">
+		    <div>
+			<h1>0元抢订单</h1>
+          
+         </div>
+           <table>
+              <tr style="background: none repeat scroll 0% 0% rgb(2, 170, 233); color: rgb(240, 255, 255);">
+                <th>用户姓名</th>
+                <th>手机号</th>
+				
+                <th>收货地址</th>
+                <th>下单时间</th>
+				
+				<th>删除</th>
+              </tr>
+			  <tr>
+                <td>马晓燕</td>
+                <td>13699186293</td>
+				
+                <td>北京市海淀区四季青桥西南平庄42号</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=18" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>闫逸</td>
+                <td>13661073998</td>
+				
+                <td>北京市通州区潞河中学</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=8" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>王海燕</td>
+                <td>13522588521</td>
+				
+                <td>北京市丰台区马家堡西里21号楼</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=17" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>闫逸</td>
+                <td>13661073998</td>
+				
+                <td>北京市通州区云景西里</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=9" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>于洪光</td>
+                <td>13224591697</td>
+				
+                <td>黑龙江省大庆市肇州县肇州镇审计公寓2单元601室</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=10" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>ll</td>
+                <td>15176216500</td>
+				
+                <td>十里河</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=16" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>哥哥</td>
+                <td>18910659596</td>
+				
+                <td>北京丰台方庄</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=14" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>丁丽娜</td>
+                <td>13126595345</td>
+				
+                <td>北京市朝阳区慈云寺住邦2000二号楼23层 中投华北</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=15" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>张佳伟</td>
+                <td>18201148311</td>
+				
+                <td>北京市，朝阳区，安华里五区，13号楼，三单元302</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=19" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>王占龙</td>
+                <td>13671116293</td>
+				
+                <td>北京市海淀区四季青桥西南平庄41号</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=20" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>吕快</td>
+                <td>15686239666</td>
+				
+                <td>西安市未央区</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=21" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>单飞</td>
+                <td>13832134614</td>
+				
+                <td>石家庄塔南路39号晶彩中心702室</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=48" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>胡宝珠</td>
+                <td>13009920718</td>
+				
+                <td>黑龙江省绥化北林区地税花园6单元101</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=23" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>梁亚芬</td>
+                <td>15146552319</td>
+				
+                <td>北林区南四商服。小龙摩托车修理布</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=24" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>梁亚芬</td>
+                <td>15146552319</td>
+				
+                <td>北林区南四商服。小龙摩托车修理布</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=25" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>贾洪霞</td>
+                <td>15246547808</td>
+				
+                <td>绥化市北林区弘坤玉龙城二期11号楼3单元403门</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=26" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>于园园</td>
+                <td>15001246743</td>
+				
+                <td>北京市朝阳区东三环中路39号建外soho西区13号楼1001</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=27" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>戚飞扬</td>
+                <td>18600810132</td>
+				
+                <td>北京市丰台区南三环洋桥向东200米路南</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=28" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>高影</td>
+                <td>15132658044</td>
+				
+                <td>河北省廊坊市固安县彭村乡滑外河村</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=29" onClick="return confirm('你确定删除？？')">删除</a></td><tr>
+                <td>李女士</td>
+                <td>13683206388</td>
+				
+                <td>北京市朝阳区立水桥立军路明天第一城5号院6号楼底商</td>
+                <td>2015-08-03</td>
+				
+                <td><a href="delete?id=30" onClick="return confirm('你确定删除？？')">删除</a></td>               
+            </table>
+			<div class="xxk2">
+               73 条记录 1/4 页  <a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/2.html'>下一页</a>     <span class='current'>1</span><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/2.html'>2</a><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/3.html'>3</a><a href='http://hongbao.weiyingjia.cn/index.php/Qiang/qiang/p/4.html'>4</a>         
+            </div>
+		 
+         </div><!--xxk1/-->
+ 
+       </div><!--xxk/-->
+     </div><!--right/-->
+   </div><!--bottom/-->
+</div><!--box/-->
+<script>
+$(function(){
+	if($("#vip").val()!=""){
+		$(this).addClass("current1").siblings().removeClass("current1");
+		var index=$(this).index();
+		$(".xxk1 .big").eq(index).show().siblings().hide();
+	}
+})
+</script>
+<script>
+	function check(val){
+		$.post('/index.php/Qiang/status',{id:val},function(date){
+			if(date == '成功'){
+				var id = val;
+				var statu = '已审核';
+				sid = "status"+id
+				$("#"+sid).html(statu)
+			}
+			
+		})
+	}
+</script>
+</body>
+</html>
